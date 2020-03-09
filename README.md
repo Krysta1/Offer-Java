@@ -8,3 +8,8 @@ beyond others.
 
 3.7 完成26,27,28,59(1),59(2)
 Fall in love with the process and the results will follow.
+
+3.8 完成Leetcode322,29
+
+3.9 完成3,4和股票买入的最佳时机，明天整理
+“Replace fear of the unknown with curiosity.”
