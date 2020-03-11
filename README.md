@@ -20,3 +20,7 @@ Fall in love with the process and the results will follow.
 3.10 完成leetcode543; 5,6,7,8,9,10(1),10(2)
 
 The secret to happiness is freedom. And the secret to freedom is courage.
+
+3.11 完成11,12,13,14_1,14_2
+
+“You can be happy or you can be unhappy. It's just according to the way you look at things.”
