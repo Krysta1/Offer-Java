@@ -24,3 +24,7 @@ The secret to happiness is freedom. And the secret to freedom is courage.
 3.11 完成11,12,13,14_1,14_2
 
 “You can be happy or you can be unhappy. It's just according to the way you look at things.”
+
+3.12 完成Leetcode1017;15,16,17,18
+
+Don't let small minds convince you that your dreams are too big.
