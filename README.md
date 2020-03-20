@@ -28,3 +28,5 @@ The secret to happiness is freedom. And the secret to freedom is courage.
 3.12 完成Leetcode1017;15,16,17,18
 
 Don't let small minds convince you that your dreams are too big.
+
+3.20 重新更新，搞了几天毕设的事，心态有点炸裂。好几天没刷题。今天完成每日打卡找回状态。
