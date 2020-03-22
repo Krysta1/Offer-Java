@@ -58,6 +58,7 @@ class Solution { // dfs
 class Solution {
     boolean[][] visited;
     int row, coj;
+
     public int movingCount(int m, int n, int k) {
         if (m == 0) return 0;
         row = m;
@@ -66,12 +67,12 @@ class Solution {
         visited = new boolean[row][coj];
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{0, 0});
-        while (queue.size() > 0){
+        while (queue.size() > 0) {
             int[] tmp = queue.poll();
             int x = tmp[0], y = tmp[1];
             if (!inArea(x, y) || visited[x][y] || sum(x) + sum(y) > k) continue;
             visited[x][y] = true;
-            res ++;
+            res++;
             queue.add(new int[]{x + 1, y});
             queue.add(new int[]{x, y + 1});
         }
@@ -79,3 +80,4 @@ class Solution {
         // int res = dfs(0, 0, k);
         return res;
     }
+}

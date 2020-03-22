@@ -35,3 +35,8 @@ Don't let small minds convince you that your dreams are too big.
 
 You don't always need a plan. Sometimes you just need to
 breathe, trust, let go, and see what happens.
+
+3.22 Offer 18 20 21 30 31 32_123 每日一题是数组唯一的最小增量 一个入栈序列的所有出栈顺序
+
+If you wish to travel far and fast, travel light. Take off all your
+envies, jealousies, unforgiveness, selfishness, and fears.
