@@ -40,3 +40,7 @@ breathe, trust, let go, and see what happens.
 
 If you wish to travel far and fast, travel light. Take off all your
 envies, jealousies, unforgiveness, selfishness, and fears.
+
+3.23 Offer 36 37 38 39 Leetcode 876
+
+This world is but canvas to our imaginations.
