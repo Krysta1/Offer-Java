@@ -44,3 +44,7 @@ envies, jealousies, unforgiveness, selfishness, and fears.
 3.23 Offer 36 37 38 39 Leetcode 876
 
 This world is but canvas to our imaginations.
+
+3.24 拖，就硬拖。今天打算开始投递简历了，主要是自己太菜了准备的真的不好。Orz。今日更新Offer 33 34 35及36 37 38解题思路。剩下的Offer三天解决吧。
+
+Don't just wait for inspiration. Become it.
