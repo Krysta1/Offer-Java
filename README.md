@@ -52,3 +52,8 @@ Don't just wait for inspiration. Become it.
 3.25 Offer 41 42 43 44 45 46 47 50
 
 The struggle you're in today is developing the strength you need for tomorrow.
+
+3.26 Offer 48 49 51 52 53_1 53_2 54 55 56_1 56_2 57 60 64
+
+You may not control all the events that happen to you,
+but you can decide not to be reduced by them.
