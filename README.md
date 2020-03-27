@@ -57,3 +57,8 @@ The struggle you're in today is developing the strength you need for tomorrow.
 
 You may not control all the events that happen to you,
 but you can decide not to be reduced by them.
+
+3.27 Offer 58_1 58_2 61 今天改了点论文，就这些吧
+
+Change is the essence of life; be willing to surrender
+what you are for what you could become.
