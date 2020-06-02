@@ -92,7 +92,75 @@
 
 ### 逆序对的数量
 #### 题目描述
+给定一个长度为n的整数数列，请你计算数列中的逆序对的数量。
+
+逆序对的定义如下：对于数列的第 i 个和第 j 个元素，如果满足 i < j 且 a[i] > a[j]，则其为一个逆序对；否则不是。
+
+输入格式
+第一行包含整数n，表示数列的长度。
+
+第二行包含 n 个整数，表示整个数列。
+
+输出格式
+输出一个整数，表示逆序对的个数。
+
+数据范围
+1≤n≤100000
+输入样例：
+6
+2 3 4 5 6 1
+输出样例：
+5
 
 #### 解题思路
+使用归并排序的模板，在归并的过程中统计逆序对的数量。
+
+在归并的过程中，如果a[i] <= a[j] 没有出现逆序对，直接复制到一个tmp数组中
+
+如果a[i] > a[j] 说明对于i位置这个数字来讲，之后一直到mid的每一个元素可以和 a[j] 构成一个逆序对，数量为mid - i + 1
 
 #### 代码
+
+    #include <iostream>
+    
+    using namespace std;
+    
+    const int N = 100010;
+    
+    int n;
+    int a[N], tmp[N];
+    
+    long long merge(int a[], int l, int r){
+        if (l >= r) return 0;
+        int mid = l + r >> 1;
+        
+        // 使用res来保存左右两侧递归返回的结果
+        long long res = merge(a, l, mid) + merge(a, mid + 1, r);
+        
+        // 对跨越两个区间的逆序对进行统计
+        int i = l, j = mid + 1, k = 0;
+        while (i <= mid && j <= r){
+            if (a[i] <= a[j]) tmp[k ++] = a[i ++]; // 如果小于等于 直接复制到tmp中
+            // 如果大于，先统计逆序对的数量
+            else {
+                res += mid - i + 1;
+                tmp[k ++] = a[j ++];
+            }
+        }
+        // 处理两个区间中的剩余情况
+        while (i <= mid) tmp[k ++] = a[i ++];
+        while (j <= r) tmp[k ++] = a[j ++];
+        
+        // 将归并之后的结果tmp复制回a中
+        for (int i = l, j = 0; i <= r; i ++, j ++) a[i] = tmp[j];
+        
+        return res;
+    }
+    
+    int main(){
+        cin >> n;
+        for (int i = 0; i < n; i ++){
+            cin >> a[i];
+        }
+        cout << merge(a, 0, n - 1)<< endl;
+    }
